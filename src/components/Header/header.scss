@@ -1,0 +1,20 @@
+// Header
+.main-header {
+  background: #4A90E2;
+  padding: 15px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > .perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      color: #fff;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}

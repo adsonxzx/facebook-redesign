@@ -1,5 +1,9 @@
 import React from 'react'
+import Header from './components/Header/index';
+import './App.scss'
 
 export default (props) => (
-  <h1>hello world</h1>
+  <>
+    <Header />
+  </>
 )
