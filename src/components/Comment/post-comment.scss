@@ -1,0 +1,28 @@
+// Post Comment
+.post-comment {
+  display: flex;  
+  font-size: 14px;
+  margin-bottom: 10px;
+
+  // comment 
+  > .comment {
+    margin-left: 10px;
+    background: #EEEEEE;
+    border-radius: 20px;
+    padding: 15px;
+
+    > .author {
+      font-weight: bold;
+      color: #385898;
+      margin-right: 5px;
+    }
+
+    > .text {
+      display: inline;
+      color: #3E3E3E;
+      font-weight: 400;
+      line-height: 16px;
+      font-size: 13px;
+    }
+  }
+}
